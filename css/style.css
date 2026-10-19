@@ -1,0 +1,69 @@
+h2 {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+h1 {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+p {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+body {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+body {
+    background-color:rgb(20, 20, 20)
+}
+body {
+    font-family: "JetBrains Mono";
+}
+
+#header {
+    text-shadow: 0 0 5px black;
+}
+#nav {
+    text-shadow: 0 0 5px black;
+}
+#h2 {
+    text-shadow: 0 0 5px black;
+}
+#skills {
+    text-shadow: 0 0 5px black;
+}
+#footer {
+    text-shadow: 0 0 5px black;
+}
+
+
+
+/*
+body {
+   width: 1000px;
+   height: 500px;
+  margin: auto;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+}
+body {
+  background-image: linear-gradient(to bottom, blue, black);
+}
+*/
+@keyframes myAnimation {
+  0%   {background-color: black;}
+  25%  {background-color: white;}
+  50%  {background-color: black;}
+  75% {background-color: white;}
+  100% {background-color: black;}
+}
+
+body {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
